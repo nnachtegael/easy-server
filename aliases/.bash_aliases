@@ -138,6 +138,6 @@ alias c='cargo'
 alias auth='auth --cluster $(kubectx -c | cut -f2 -d"@")'
 
 # Display
-alias uvb="xrandr --output $(xrandr | grep " connected" | cut -f1 -d " ") --brightness $1"
-alias uvbn="xrandr --output $(xrandr | grep " connected" | cut -f1 -d " ") --gamma 1.0:0.7:0.6 --brightness $1"
+#alias uvb="xrandr --output $(xrandr | grep " connected" | cut -f1 -d " ") --brightness $1"
+#alias uvbn="xrandr --output $(xrandr | grep " connected" | cut -f1 -d " ") --gamma 1.0:0.7:0.6 --brightness $1"
 
