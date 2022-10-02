@@ -10,7 +10,7 @@ NGINX_PROXY_DATA_FILES=data
 
 # Clone nginx-proxy latest version
 cd $NGINX_PROXY_BASE_PATH
-git clone --recurse-submodules https://github.com/evertramos/nginx-proxy-automation.git $NGINX_PROXY_AUTOMATION_PATH
+git clone --recurse-submodules https://github.com/nnachtegael/nginx-proxy-automation.git $NGINX_PROXY_AUTOMATION_PATH
 cd $NGINX_PROXY_AUTOMATION_PATH
 
 # Get current IP Address
