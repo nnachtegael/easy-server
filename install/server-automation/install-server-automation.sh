@@ -7,7 +7,7 @@ SERVER_AUTOMATION_BASE_FOLDER="/home/$USER/server/server-automation"
 
 # Clone server-automation latest version
 cd $SERVER_AUTOMATION_BASE_FOLDER
-git clone --recurse-submodules https://github.com/evertramos/server-automation.git .
+git clone --recurse-submodules https://github.com/nnachtegael/server-automation.git .
 
 # @todo - automate the server-automation initial setup
 if [ -f "${SERVER_AUTOMATION_BASE_FOLDER}/README.md" ]; then
